@@ -10,8 +10,14 @@ import orderRouter from './routes/orderRoute.js'
 
 //App Config
 const app = express()
-connectDB()
-connectCloudinary()
+
+// Initialize DB connection
+try {
+    await connectDB()
+    await connectCloudinary()
+} catch (error) {
+    console.error('Initialization error:', error)
+}
 
 //middleware 
 app.use(express.json())
@@ -27,11 +33,10 @@ app.get('/', (req, res) => {
     res.send("API Working")
 })
 
-// Only start the server if we're not in production (not on Vercel)
+// Development server
 if (process.env.NODE_ENV !== 'production') {
     const port = process.env.PORT || 4000
     app.listen(port, () => console.log('Server started on Port : ' + port))
 }
 
-// Export the app for Vercel
 export default app
