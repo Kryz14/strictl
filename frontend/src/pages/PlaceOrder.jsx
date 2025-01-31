@@ -113,7 +113,7 @@ const PlaceOrder = () => {
 
     // Initialize Paystack payment
     paystack.newTransaction({
-      key: 'pk_test_d20fd002cf8f52b5eade63d8683ce279b515c87a', // Use dynamic public key from context
+      key: 'pk_live_49b0aaf027ca5ee543468774d81d36da80043d05', // Use dynamic public key from context
       email: formData.email, // Customer's email
       amount: (getCartAmount() + deliveryFee) * 100, // Amount in kobo
       currency: 'NGN',

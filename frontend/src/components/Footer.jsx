@@ -12,8 +12,8 @@ const Footer = () => {
         <div className="flex-1">
             <p className="text-xl font-medium mb-5">COMPANY</p>
             <ul className="flex flex-col gap-1 text-gray-600">
-                <li>Home</li>
-                <li>About us</li>
+                <li><a href='/'>Home</a></li>
+                <li><a href='/about'>About us </a></li>
                 <li>Delivery</li>
                 <li>Privacy policy</li>
             </ul>
@@ -21,8 +21,10 @@ const Footer = () => {
         <div className="flex-1">
             <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
             <ul className="flex flex-col gap-1 text-gray-600">
-                <li>+234812272985</li>
-                <li>strictlymessiah58@gmail.com</li>
+               <li><a href="https://wa.me/234812272985" target="_blank">+234812272985</a></li>
+
+                <li><a href="mailto:strictlymessiah58@gmail.com">strictlymessiah58@gmail.com</a></li>
+
             </ul>
         </div>
     </div>

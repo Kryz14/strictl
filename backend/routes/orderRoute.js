@@ -1,5 +1,5 @@
 import express from 'express'
-import  { placeOrder, allOrders, userOrders, updateStatus } from '../controllers/orderController.js'
+import  { placeOrder, allOrders, userOrders, updateStatus, processPaystackPayment } from '../controllers/orderController.js'
 import adminAuth from '../middleware/adminAuth.js'
 import authUser from '../middleware/auth.js'
 
@@ -11,7 +11,7 @@ orderRouter.post('/status', adminAuth,updateStatus)
 
 //Payment  Features
 orderRouter.post('/place',authUser,placeOrder)
-orderRouter.post('/place',authUser,placeOrder)
+orderRouter.post('/paystack',  processPaystackPayment);
 
 //user Features
 orderRouter.post('/userorders',authUser,userOrders)

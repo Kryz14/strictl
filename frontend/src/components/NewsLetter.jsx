@@ -1,6 +1,6 @@
-import React from 'react'
+  import React from 'react'
 
-const NewsLetter = () => {
+ const NewsLetter = () => {
     const onSubmitHandler = (event) => {
         event.preventDefault();
     }
@@ -19,4 +19,4 @@ const NewsLetter = () => {
   )
 }
 
-export default NewsLetter
+export default NewsLetter 
