@@ -70,6 +70,7 @@ import p_img52 from './p_img52.png'
 import logos from './logos.jpg'
 import paystackseeklogo from './paystackseeklogo.png'
 import aboutsm from './aboutsm.jpg'
+import strict from './strict.jpg'
 import blackcroptop from './blackcroptop.jpg'
 import hero_img from './hero_img.png'
 import cart_icon from './cart_icon.png'
@@ -94,6 +95,7 @@ export const assets = {
     paystackseeklogo,
     aboutsm,
     blackcroptop,
+    strict,
     hero_img,
     cart_icon,
     dropdown_icon,

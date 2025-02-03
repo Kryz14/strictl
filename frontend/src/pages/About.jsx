@@ -14,7 +14,7 @@ const About = () => {
       <div className='flex flex-col justify-center gap-6 md:w-2/4 text-gray-600'>
         <p>Welcome to SM, where every stitch tells a story, and every design radiates boldness.
 
-At SM, we redefine fashion as more than just clothing,it's an expression of identity, a statement of confidence, and a spark of inspiration. Our mission is to craft exceptional, high-quality pieces that empower you to stand tall, feel bold, and turn heads.  
+SM is a Streetwear Brand that redefine fashion as more than just clothing,it's an expression of identity, a statement of confidence, and a spark of inspiration. Our mission is to craft exceptional, high-quality pieces that empower you to stand tall, feel bold, and turn heads.  
 
 Launched in 2024 by the visionary "Dammydrizzy," SM was born out of a life-changing challenge and transformative journey, turning a life-defining challenge into a mission to create exceptional wear for those who dare to stand out.  
 
