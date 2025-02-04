@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../components/Title'
 import { assets } from '../assets/assets'
-import NewsLetter from '../components/NewsLetter'
+
 
 const About = () => {
   return (
@@ -44,7 +44,7 @@ Step into the world of Strictly Messiah and let your style do the talking.</p>
       
     </div>
 
-    <NewsLetter />
+    
     </div>
   )
 }
